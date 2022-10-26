@@ -1,0 +1,21 @@
+.pixelWrapper{
+    display: flex;
+    width: 320px;
+    height: 320px;
+    flex-wrap: wrap;
+}
+.pixel{
+    display: flex;
+    width: 20px;
+    height: 20px;
+
+    /* uncomment this to put margins on the render */
+    /* box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid black; */
+}
+.renderer{
+    margin: 20px;
+    
+}
